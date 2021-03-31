@@ -1,0 +1,62 @@
+body{
+   margin: 0px;
+   background-image: url('../img/background_photo.jpg');
+   background-size: 100%;
+   height: 100%;
+}
+
+/* Nav Bar CSS */
+nav{
+    background-color: transparent;
+    height: 100px;
+}
+
+#italiwallsLogo{
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+#navLinkContainer{
+    float: right;
+    padding-top: 45px;
+    margin-right: 15%;
+}
+
+.navLink{
+    color: black;
+    margin-right: 50px;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#active{
+    text-decoration: underline;
+}
+
+#active:hover{
+    cursor: text;
+}
+
+/* Index CSS */
+.main-content{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#index-center-content{
+    margin-top: 12.5%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#index-center-content, h3{
+    font-style: italic;
+}
