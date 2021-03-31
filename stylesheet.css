@@ -1,0 +1,17 @@
+#pageTitle{
+    text-align: center;
+}
+
+#hostedProjects{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+}
+
+#italiwallsLink{
+    margin-right: 50px;
+}
