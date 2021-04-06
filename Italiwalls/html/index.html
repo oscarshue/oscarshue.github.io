@@ -2,22 +2,32 @@
 <html>
     <head>
         <title>Italiwalls - Home</title>
+        <link rel="icon" href="../img/italiwallsFavicon.png" type="image/gif" sizes="16x16">
+        <!-- CSS and JS src links -->
         <link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-        <link rel="icon" href="../img/italiwallsFavicon.png" type="image/gif" sizes="16x16">
+        <script src="../js/javascript.js"></script>
+        <!-- Responsive site tags -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <!-- Icon Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav>
-            <img id="italiwallsLogo" src="../img/italiwallsLogo.png"/>
-            <div id="navLinkContainer">
-                <a class="navLink" id="active">Home</a>
-                <a class="navLink" href="about_us.html">About Us</a>
-                <a class="navLink" href="training.html">Training</a>
-                <a class="navLink" href="contact_us.html">Contact Us</a>
-                <a class="navLink" href="members_portal.html">Members Portal</a>
-            </div>
-        </nav>
+        <img id="italiwallsLogo" src="../img/italiwallsLogo.png"/>
+        <div class="nav_bar" id="nav_bar">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">About Us</a>
+            <a href="#contact">Training</a>
+            <a href="#about">Contact Us</a>
+            <a href="#about">Members Portal</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()" style="margin-right: 10px;">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
         <div class="main-content">
             <div id="index-center-content">
                 <h2>Italiwalls</h2>
