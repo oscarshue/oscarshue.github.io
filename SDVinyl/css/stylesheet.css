@@ -228,7 +228,7 @@ body{
         padding-bottom: 35% !important;
     }
     #headingContainer {
-        margin-top: 0px;
+        margin-top: 0px !important;
     }
 }
   
