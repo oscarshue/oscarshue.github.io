@@ -2,6 +2,7 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
+        <script src="../js/javascript.js"></script>
         <title>SD Vinyl - Homepage</title>
         <link rel="shortcut icon" type="image/jpg" href="../img/SDVinyl-favicon.png"/>
         <!-- Nunito Font: https://fonts.google.com/specimen/Nunito?preview.text_type=custom -->
@@ -9,19 +10,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
         <!-- Social Media Icons Library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Responsive site tags -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
     </head>
     <body>
-        <div class="mainContainer">
-            <nav id="sdvinyl-nav">
-                <img id="sdvinyl-logo" src="../img/SDVinylLogo.jpg" />
-                <div id="sdvinyl-nav-links">
-                    <a class="active-link">Home</a>
-                    <a href="work.html">Our Work</a>
-                    <a href="colours.html">Our Colours</a>
-                    <a href="reviews.html">Customer Reviews</a>
-                    <a href="contact.html">Contact Us</a>
-                </div>
-            </nav>
+        <img class="page_logo" src="../img/SDVinylLogo.jpg"/>
+        <div class="nav_bar" id="nav_bar">
+            <div class="links_container">
+                <a href="#" class="active">Home</a>
+                <a href="#">Our Work</a>
+                <a href="#">Our Colours</a>
+                <a href="#">Customer Reviews</a>
+                <a href="#">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="mainContent">
             <div id="headingContainer">
                 <h1 id="mainHeading">Welcome to SDVinyl</h1>
                 <h3 id="subHeading">Proud Provider of Custom Products made from Adhesive Vinyl, and more!</h3>
@@ -41,14 +49,18 @@
                     <h4 class="indexGalleryCaption">Car Fresheners</h4>
                 </div>
             </div>
-            <footer class="sdvinyl-footer">
-                <div class="footerElements">
-                    <div class="socialMediaIcons">
-                        <a href="https://www.facebook.com/SD-Vinyl-102875481779499" class="fa fa-facebook"></a>
-                        <a href="https://instagram.com/sdvinyl" class="fa fa-instagram"></a>
-                    </div>
+        </div>
+        <div class="footer">
+            <div class="contain">
+                <div class="column">
+                    <h1>Column Title</h1>
+                    <ul>
+                        <li>Column Link</li>
+                        <li>Column Link</li>
+                    </ul>
                 </div>
-            </footer>
+                <div class="clearfix"></div>
+            </div>
         </div>
     </body>
 </html>
