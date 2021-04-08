@@ -1,7 +1,16 @@
+/* Universal Styling */
+
 body{
     height: 100%;
     position: relative;
     margin: 0px;
+}
+
+.headingContainer{
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: -9%;
 }
 
 /* SDVinyl Navigation Bar CSS */
@@ -227,7 +236,7 @@ body{
     .mainContent {
         padding-bottom: 35% !important;
     }
-    #headingContainer {
+    .headingContainer {
         margin-top: 0px !important;
     }
 }
@@ -240,13 +249,6 @@ body{
 
 /* SDVinyl Index CSS */
 
-#headingContainer{
-    width: 100%;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    margin-top: -9%;
-}
-
 #indexImageGallery{
     width: 75%;
     margin-left: auto;
@@ -254,6 +256,12 @@ body{
     margin-top: 40px;
     text-align: center;
     border: 1px solid black;
+}
+
+@media screen and (max-width: 411px) {
+    #indexImageGallery {
+        width: 80%;
+    }
 }
 
 #indexImageGalleryHeading{
@@ -275,7 +283,37 @@ body{
     border: 1px solid black;
 }
 
-.mainContent{
-    height: fit-content;
-    padding-bottom: 15%;
+/* SDVinyl Work CSS */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-wrapper {
+    width: 60%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageExtraInfo{
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 411px) {
+    .carousel-caption {
+        display: none;
+    }
+    .carousel-wrapper {
+        width: 80%;
+        height: 25%;
+    }
+    .extraInfoContent{
+        font-size: 1.25rem !important;
+    }
 }
