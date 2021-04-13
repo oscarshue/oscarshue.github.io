@@ -31,7 +31,8 @@ body{
      margin: 0px 50px 5px 10px;
      text-decoration: none;
      font-size: 16px;
-     font-family: 'Source Code Pro', monospace;
+     font-weight: 900;
+     font-family: 'Montserrat', sans-serif;
  }
    
  .nav_bar a:hover {
@@ -87,6 +88,15 @@ body{
  }
  
  /* Footer CSS */
+ 
+ /*
+ To Do:
+ Adjust footer position settings depending on desktop screen height
+ Can be achieved by setting position: absolute; for larger screens,
+ Smaller screens achieved by setting position: inherit.
+ Check about-us.html footer in-line styling for fix for personal laptop.
+ Complete above by setting media rules for larger height desktops.
+ */
  
  .footer {
      margin-top: 20%;
@@ -206,7 +216,8 @@ body{
  #index-center-content{
      height: fit-content;
      margin-top: 5%;
-     font-family: 'Source Code Pro', monospace;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
      text-align: center;
  }
  
@@ -238,7 +249,8 @@ body{
  
  #about-us-title {
      height: fit-content;
-     font-family: 'Source Code Pro', monospace;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
      text-align: center;
      font-style: italic;
      margin-top: -55px;
@@ -269,6 +281,7 @@ body{
      display: flex;
      align-items: center;
      text-align: justify;
-     font-family: 'Source Code Pro', monospace;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
      font-size: 0.95em;
  }
