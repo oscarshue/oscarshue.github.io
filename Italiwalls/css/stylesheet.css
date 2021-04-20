@@ -285,3 +285,111 @@ body{
      font-weight: 900;
      font-size: 0.95em;
  }
+ 
+ /* Training CSS */
+ 
+ #training-title {
+     height: fit-content;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
+     text-align: center;
+     font-style: italic;
+     margin-top: -55px;
+ }
+ 
+ #training-main-content {
+     height: fit-content;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ #training-video-container {
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+ }
+ 
+ #training-video {
+     height: 280px;
+     width: 500px;
+     margin-bottom: 25px;
+ }
+ 
+ #external-training-video {
+     background-color: #999966;
+     box-shadow: 0 5px 0 #7a7a52;
+     padding: 1em 2.5em;
+     border-radius: 10px;
+     position: relative;
+     color: black;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ 
+ #external-training-video:hover {
+     cursor: pointer;
+     background-color: #8a8a5c;
+ }
+ 
+ #external-training-video:active {
+     box-shadow: none;
+     top: 5px; /* Keep this identical to the box shadow height */
+ }
+ 
+ #training-information-container {
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     text-align: center;
+ }
+ 
+ .training-information {
+     width: 30%;
+     display: inline-block;
+     margin-right: 25px;
+ }
+ 
+ .training-information-image {
+     height: 200px;
+     width: 300px;    
+ }
+ 
+ .training-information-text {
+     text-align: justify;
+     padding: 0px 10px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
+ }
+ 
+ @media only screen and (max-width: 420px) {
+     #training-main-content {
+         width: 100% !important;
+     }
+     
+     #training-title {
+         margin-top: -10px !important;
+     }
+ 
+     #training-video {
+         height: 175px !important;
+         width: 300px !important;
+     }
+ 
+     #external-training-video {
+         padding: 0.5em 1.5em !important;
+         font-size: medium !important;
+     }
+ 
+     .training-information {
+         display: block !important;
+         width: 80% !important;
+         margin-left: auto !important;
+         margin-right: auto !important;
+         padding: 0px !important;
+     }
+ }
